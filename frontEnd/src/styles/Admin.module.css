@@ -1,0 +1,59 @@
+/* Admin.module.css */
+
+/* Estilos para el Navbar */
+.navbar {
+  background-color: #333; /* Fondo oscuro para el Navbar */
+  padding: 10px 0; /* Añade espacio en la parte superior e inferior */
+}
+
+.navbarBrand {
+  color: #fff !important; /* Texto blanco para la marca del Navbar */
+  font-size: 24px; /* Tamaño de fuente más grande */
+  padding: 0 20px; /* Añade espacio a los lados */
+}
+
+.navLinks {
+  margin-right: 20px; /* Aumenta el espacio entre enlaces */
+  font-size: 18px; /* Tamaño de fuente más grande */
+}
+
+.navLink {
+  color: #fff !important; /* Texto blanco para los enlaces del Navbar */
+  font-size: 18px; /* Tamaño de fuente más grande */
+  margin-right: 20px; /* Aumenta el espacio entre enlaces */
+  text-decoration: none !important; /* Elimina el subrayado en los enlaces */
+  transition: opacity 0.3s, color 0.3s; /* Agrega transiciones suaves */
+}
+
+.navLink:hover {
+  opacity: 0.7; /* Reduce la opacidad al pasar el mouse */
+  color: #ffcc00 !important; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilos para el texto de bienvenida */
+.welcomeText {
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-top: 20px; /* Agrega margen en la parte superior */
+  font-size: 24px; /* Tamaño de fuente más grande */
+  color: #333; /* Color de texto oscuro */
+}
+
+/* Estilos para el contenedor del texto de bienvenida */
+.logoutContainer {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos hijos */
+  margin-right: auto; /* Empuja el enlace de logout hacia la derecha */
+}
+
+/* Estilos para el enlace de logout */
+.logoutLink {
+  margin-left: 10px;
+  font-size: 18px; /* Tamaño de fuente más grande */
+  color: #fff !important; /* Texto blanco */
+  transition: opacity 0.3s, color 0.3s; /* Agrega transiciones suaves */
+}
+
+.logoutLink:hover {
+  opacity: 0.7; /* Reduce la opacidad al pasar el mouse */
+  color: #ffcc00 !important; /* Cambia el color al pasar el mouse */
+}

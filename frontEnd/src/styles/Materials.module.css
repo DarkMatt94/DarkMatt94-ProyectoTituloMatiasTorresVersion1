@@ -1,0 +1,103 @@
+/* Navbar styles */
+
+/* Estilos para el contenedor principal */
+.userContainer {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+/* Estilos para el Navbar */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #212529;
+  transition: background-color 0.3s ease;
+}
+
+.navBrand {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navLink {
+  font-size: 18px;
+  display: flex;
+  gap: 20px; /* Espaciado entre elementos del menú */
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.65); /* Color de texto con transparencia */
+  text-decoration: none;
+  transition: color 0.3s ease, opacity 0.3s ease; /* Transiciones para color y opacidad */
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, 0.85); /* Color con mayor opacidad al pasar el mouse */
+  opacity: 0.8; /* Opacidad al pasar el mouse */
+}
+
+/* Container styles */
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff; /* Blanco */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Card styles */
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0; /* Gris claro */
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Card header styles */
+.card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333; /* Gris oscuro */
+}
+
+/* Card text styles */
+.card p {
+  font-size: 16px;
+  color: #555555; /* Gris medio */
+}
+
+/* List group styles */
+.listItem {
+  background-color: #f5f5f5; /* Gris más claro */
+  border: 1px solid #e0e0e0; /* Gris claro */
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+.listItem:hover {
+  transform: scale(1.02);
+}
+
+.listItem h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333; /* Gris oscuro */
+}
+
+.listItem p {
+  font-size: 16px;
+  color: #555555; /* Gris medio */
+}

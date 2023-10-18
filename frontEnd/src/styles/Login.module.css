@@ -1,0 +1,40 @@
+/* Login.module.css */
+
+/* Estilos para el componente Login */
+.container {
+  background-color: #ffffff;
+}
+
+.form {
+  background-color: #f1f1f1;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 16px;
+  margin-top: 10px; /* Agrega un margen superior aquí */
+}
+
+.button {
+  width: 100%;
+  margin-top: 15px; /* Agregamos un margen superior aquí */
+}
+
+.text {
+  font-size: 14px;
+}
+
+/* Estilos para los mensajes de error */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}

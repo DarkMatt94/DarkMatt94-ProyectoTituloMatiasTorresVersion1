@@ -1,0 +1,84 @@
+/* Users_Admin.module.css */
+
+/* Estilos para el Navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 24px;
+  padding: 0 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.navbar-text {
+  color: #fff !important;
+  font-size: 18px;
+}
+
+/* Estilos para los enlaces de navegación */
+.navLinks a {
+  color: #fff !important;
+  text-decoration: none !important;
+  margin-right: 20px;
+  transition: opacity 0.3s, color 0.3s;
+  font-size: 18px;
+}
+
+.navLinks a:hover {
+  opacity: 0.7;
+  color: #ffcc00 !important;
+}
+
+/* Estilos para el encabezado de la página */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la tabla de usuarios */
+.userTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.userTable th,
+.userTable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.userTable th {
+  background-color: #333;
+  color: #fff;
+}
+
+.userTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.userTable tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para centrar el título en el Navbar */
+.titleText {
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
