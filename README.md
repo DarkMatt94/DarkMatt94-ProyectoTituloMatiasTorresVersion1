@@ -15,9 +15,11 @@ La carpeta "mysql" contiene todos los archivos necesarios para la base de datos.
 Dentro de las carpetas "server" y "frontEnd", ejecuta el siguiente comando en la terminal para instalar las dependencias necesarias:
 
 cd server
+
 npm install
 
 cd frontEnd
+
 npm install
 
 5. Configurar la API Key
@@ -27,6 +29,7 @@ En el archivo "server.js" dentro de la carpeta "server", asegúrate de modificar
 Para iniciar el servidor backend, ejecuta el siguiente comando en la carpeta del proyecto:
 
 cd server
+
 npm start
 
 Asegúrate de que la base de datos esté creada y que XAMPP esté en funcionamiento, ya que el servidor backend depende de la base de datos.
@@ -35,4 +38,5 @@ Asegúrate de que la base de datos esté creada y que XAMPP esté en funcionamie
 Para iniciar el servidor de desarrollo del frontend, ejecuta el siguiente comando en la carpeta del proyecto:
 
 cd frontEnd
+
 npm run dev
